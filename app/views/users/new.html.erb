@@ -1,15 +1,8 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
+<h1>User Form</h1>
 
-<%
-  <form action="/users" method="POST" accept-charset="UTF-8">
-  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %> <%# ">
-  <label for="username"> Username </label>
-  <input type="text" id="username" name="user[username]">
-  <label for="email"> Email </label>
-  <input type="email" id="email" name="user[email]">
-  <label for="password"> Password </label>
-  <input type="password" id="password" name="user[password]">
-  <input type="submit" value="Submit">
-</form>
-%>
+<%= form_for @user do |f| %>
+  Username: <%= f.text_field :username %><br><br>
+  Email: <%= f.email_field :email, placeholder: 'Enter password' %><br><br>
+  Password: <%= f.password_field :password, placeholder: 'Enter password' %><br><br>
+  <%= f.submit "Submit" %>
+<% end %>
