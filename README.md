@@ -1,11 +1,9 @@
 # RailsForm
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-
- ## Odin 'Re-former' project
-
 > This project is part of Microverse HTML/CSS curriculum
 
+## Odin 'Re-former' project
 Project requirements put together by [Odin Project](https://www.theodinproject.com/)
 
 
