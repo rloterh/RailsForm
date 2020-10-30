@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
- ## Re-Former
+ ## Odin 'Re-former' project
 
 > This project is part of Microverse HTML/CSS curriculum
 
