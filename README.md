@@ -1,8 +1,8 @@
-# README
+# RailsForm
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
- ## RailsForm
+ ## Re-Former
 
 > This project is part of Microverse HTML/CSS curriculum
 
