@@ -4,8 +4,6 @@
 > This project is part of Microverse HTML/CSS curriculum
 
 ## Odin 'Re-former' project
-Project requirements put together by [Odin Project](https://www.theodinproject.com/)
-
 
 This is a basic project and demonstrates form creation with Ruby on Rails using MVC pattern. In this project a new user can be created and user information updatedPosts and Comments.
 
