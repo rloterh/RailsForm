@@ -25,7 +25,7 @@ This is a basic project and demonstrates form creation with Ruby on Rails using 
 ## Authors
 👤 **Robert Loterh**
 
-- Github: [@githubhandle](https://github.com/rloterh )
+- Github: [@githubhandle](@rloterh)
 - Twitter: [@twitterhandle](https://twitter.com/RLoterh )
 - Linkedin: [linkedin](https://www.linkedin.com/in/robert-loterh-30b265135/)
 

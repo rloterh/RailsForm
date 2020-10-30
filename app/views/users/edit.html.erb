@@ -8,8 +8,5 @@
   <% end %>
 <% end %>
 
-  Username: <%= f.text_field :username %>
-  Email: <%= f.email_field :email, placeholder: 'Enter email' %>
-  Password: <%= f.password_field :password, placeholder: 'Enter password' %>
-  <%= f.submit "Submit" %>
+<%= render 'form' %>
 <% end %>
