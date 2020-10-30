@@ -1,24 +1,52 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Things you may want to cover:
+ ## RailsForm
 
-* Ruby version
+> This project is part of Microverse HTML/CSS curriculum
 
-* System dependencies
+Project requirements put together by [Odin Project](https://www.theodinproject.com/)
 
-* Configuration
 
-* Database creation
+This is a basic project and demonstrates form creation with Ruby on Rails using MVC pattern. In this project a new user can be created and user information updatedPosts and Comments.
 
-* Database initialization
 
-* How to run the test suite
+## Setup Instructions & Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
+- [Clone](https://github.com/rloterh/RailsForm.git) this project
+- Install dependencies using the command **_bundle install_**
+- Run the command **_rails s_** to start the Rails server
+- In your browser, navigate to  **_http://localhost:3000/users/new_**
+  
 
-* Deployment instructions
+## Built Mainly With
 
-* ...
+- Ruby 2.7.2
+- Rails 6.0.3.4
+
+
+## Authors
+👤 **Robert Loterh**
+
+- Github: [@githubhandle](https://github.com/rloterh )
+- Twitter: [@twitterhandle](https://twitter.com/RLoterh )
+- Linkedin: [linkedin](https://www.linkedin.com/in/robert-loterh-30b265135/)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/rloterh/railsform/issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Project requirements created by [Odin Project](https://www.theodinproject.com/)
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
