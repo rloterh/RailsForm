@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 > This project is part of Microverse HTML/CSS curriculum
 
-## Odin 'Re-former' project
+## Odin 'Bare Metal Forms and Helpers (Re-former)' project
 
 This is a basic project and demonstrates form creation with Ruby on Rails using MVC pattern. In this project a new user can be created and user information updatedPosts and Comments.
 
