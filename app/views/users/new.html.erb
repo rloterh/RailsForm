@@ -13,7 +13,20 @@
 </form>
 %>
 
-<%# form_tag %>
+<%
+=begin %>
+<%= form_with(url: "/users/", method: "post") do %>
+  <label for = 'user[username]'>Username</label>
+  <input type="text" name="user[username]" id ='user[username]'>
+  <label for = 'user[email]'>Email</label>
+  <input type="email" name="user[email]" id = 'user[email]'>
+  <label for = 'user[password]'>Password</label>
+  <input type="password" name="user[password]" id = 'user[password]'>
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <%= submit_tag("Submit") %>
+<% end %>
+<% 
+=end %>
 
 <%
 =begin %>
@@ -29,6 +42,5 @@
 <% 
 =end %>
 
-<%# form_for %>
-
+<!-- form_for is created inside a form template-->
 <%= render 'form' %>

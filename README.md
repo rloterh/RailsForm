@@ -25,7 +25,7 @@ This is a basic project and demonstrates form creation with Ruby on Rails using 
 ## Authors
 👤 **Robert Loterh**
 
-- Github: [@githubhandle](@rloterh)
+- Github: [@githubhandle](https://github.com/rloterh)
 - Twitter: [@twitterhandle](https://twitter.com/RLoterh )
 - Linkedin: [linkedin](https://www.linkedin.com/in/robert-loterh-30b265135/)
 
@@ -42,6 +42,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Project requirements created by [Odin Project](https://www.theodinproject.com/)
+- CSS template used from [Jumstartlab](http://tutorials.jumpstartlab.com/)
 
 ## 📝 License
 
