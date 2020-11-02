@@ -1,0 +1,36 @@
+<div>
+  <div>
+    <h1>User Accounts</h1>
+  </div>
+  <h2>
+  <%= link_to 'Create New User', new_user_path %>
+  </h2><br><br>
+  <% if @users.present? %>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">&nbsp&nbsp<h4>User</h4> </th>
+            <th scope="col">&nbsp&nbsp <h4>Email</h4></th>
+            <th scope="col" colspan="3">&nbsp&nbsp <h4>Action</h4></th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @users.each do |user| %>
+            <tr>
+              <td>&nbsp&nbsp<%=user.username %></td>
+              <td>&nbsp&nbsp<%=user.email %></td>
+              <td>&nbsp&nbsp<%= link_to 'Show', user_path(user.id) %></td>
+              <td>&nbsp&nbsp<%= link_to 'Edit', edit_user_path(user.id) %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  <% else %>
+    <div>
+      <h2>Welcome! </h2>
+      Create New first User
+    </div>
+  <% end %>
+</div>

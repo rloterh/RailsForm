@@ -1,0 +1,12 @@
+<h1>Edit User <%= @user.id %> Details</h1>
+
+<%= form_for @user do |f| %>
+
+<% if @user.errors.any? %>
+  <% @user.errors.full_messages.each do |error| %>
+    <%= error %>
+  <% end %>
+<% end %>
+
+<%= render 'form' %>
+<% end %>

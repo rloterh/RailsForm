@@ -1,0 +1,46 @@
+<h1>User Form</h1>
+
+<%#
+  <form action="/users" method="POST" accept-charset="UTF-8">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %> <%# ">
+  <label for="username"> Username </label>
+  <input type="text" id="username" name="user[username]">
+  <label for="email"> Email </label>
+  <input type="email" id="email" name="user[email]">
+  <label for="password"> Password </label>
+  <input type="password" id="password" name="user[password]">
+  <input type="submit" value="Submit">
+</form>
+%>
+
+<%
+=begin %>
+<%= form_with(url: "/users/", method: "post") do %>
+  <label for = 'user[username]'>Username</label>
+  <input type="text" name="user[username]" id ='user[username]'>
+  <label for = 'user[email]'>Email</label>
+  <input type="email" name="user[email]" id = 'user[email]'>
+  <label for = 'user[password]'>Password</label>
+  <input type="password" name="user[password]" id = 'user[password]'>
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <%= submit_tag("Submit") %>
+<% end %>
+<% 
+=end %>
+
+<%
+=begin %>
+<%= form_tag users_path do %>
+  <%= label_tag :username %>
+  <%= text_field_tag :username, params[:username] %>
+  <%= label_tag :email %>
+  <%= text_field_tag :email, params[:email] %>
+  <%= label_tag :password %>
+  <%= password_field_tag :password, params[:password] %>
+  <%= submit_tag "Submit" %>
+<% end %>
+<% 
+=end %>
+
+<!-- form_for is created inside a form template-->
+<%= render 'form' %>
